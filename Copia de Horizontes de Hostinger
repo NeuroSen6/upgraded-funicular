@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clock off BLOCK – Signal 001</title>
+  <style>
+    body {
+      background-color: black;
+      color: #ff1c1c;
+      font-family: monospace;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 2em;
+      animation: glitch 1s infinite;
+    }
+    @keyframes glitch {
+      0% { text-shadow: 2px 2px #00ffe1, -2px -2px #ff1c1c; }
+      50% { text-shadow: -2px 2px #00ffe1, 2px -2px #ff1c1c; }
+      100% { text-shadow: 2px -2px #00ffe1, -2px 2px #ff1c1c; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Signal 001: CLOCK WITH BOMBS</h1>
+  <p>The Hidden Core is active.</p>
+  <p>Broadcasting from: @NeuroSen6 x Agent_00BLOCK</p>
+  <p>Let the system collapse...</p>
+</body>
+</html>
